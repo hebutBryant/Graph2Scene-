@@ -1,0 +1,12 @@
+# Versions verified in the local uno_env environment (Python 3.10, CUDA).
+# Choose the CUDA-compatible PyTorch wheel/index for your machine if needed.
+torch==2.12.0
+torchvision==0.27.0
+
+# This exact diffusers commit provides QwenImage21Pipeline and its attention processor.
+diffusers @ git+https://github.com/huggingface/diffusers@e0118ade2f60234c41bacf40330a7e2f61108849
+transformers==5.17.0
+accelerate==1.15.0
+safetensors==0.8.0
+Pillow==12.2.0
+sentencepiece==0.2.0
